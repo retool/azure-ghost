@@ -1,0 +1,118 @@
+body {
+  margin-top:0;
+  padding-top:0;
+}
+.global-nav {
+  height: 60px;
+  position: fixed;
+  font-family:'Open Sans';
+  top:0;
+  right: 0;
+  bottom: auto;
+  left: 0;
+  z-index: 800;
+  background: #242628;
+  transition: -webkit-transform 0.4s cubic-bezier(0.1, 0.7, 0.1, 1);
+  transition: transform 0.4s cubic-bezier(0.1, 0.7, 0.1, 1);
+}
+.global-nav * {
+   font-family:'Open Sans'
+}
+.global-nav .nav-item {
+  position: relative;
+  display: block;
+  float: left;
+  height: 60px;
+  padding-right: 10px;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  font-weight: 200;
+  line-height: 1.1em;
+}
+
+.global-nav .nav-label {
+  height: 33px;
+  margin-top: 14px;
+  padding: 10px 12px;
+  color: rgba(255, 255, 255, 0.7);
+  text-transform: uppercase;
+  border-radius: 4px;
+  white-space: nowrap;
+  transition: color 0.5s, background 0.5s;
+}
+.global-nav a.nav-item:hover, .global-nav a.nav-item:active, .global-nav a.nav-item:focus{
+  text-decoration:none;
+}
+
+.global-nav a.nav-item:active .nav-label {
+   text-decoration:none;
+}
+.global-nav a.nav-item:hover .nav-label {
+  color: #fff;
+  background: #0e0f10;
+  transition: color 0.1s, background 0.1s;
+  text-decoration:none;
+}
+
+.global-nav a.nav-item.active .nav-label {
+  color: #fff;
+  background: #0e0f10;
+ transition: color 0.1s, background 0.1s;
+}
+.global-nav i:before {
+    display: inline-block;
+    width: 16px; 
+}
+.global-nav .ghost-logo {
+  width: 60px;
+  padding-right: 0;
+  text-align: center;
+  color: #656d71;
+  font-size: 1.2rem;
+  line-height: 1em;
+  transition: color 0.5s;
+}
+.global-nav .user-menu .nav-label {
+  margin: 0;
+  padding: 0 12px;
+  background: none !important;
+  height: 60px;
+}
+.global-nav .user-menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.global-nav .user-menu .name {
+  float: right;
+  height: 33px;
+  margin-top: 14px;
+  padding: 10px 12px;
+  border-radius: 4px;
+  max-width: 300px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  transition: background 0.5s;
+}
+.global-nav .user-menu .image {
+  float: left;
+  margin: 15px 8px 0 0;
+}
+.global-nav .user-menu .image img {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+.app-content {
+  margin-top:60px;
+  padding:1px 30px;
+}
+.app-content {
+  font-family:'Open Sans'; 
+}

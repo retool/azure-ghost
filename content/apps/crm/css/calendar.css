@@ -1,0 +1,70 @@
+section.calendar {
+  width:70%;
+  display:inline-block;
+  vertical-align:top;
+}
+section.details {
+  width:30%;
+  display:inline-block;
+  vertical-align:top;
+}
+table.calendar {
+  width:100%;
+}
+table.calendar th {
+  text-align:left;
+  padding:0 10px;
+}
+table.calendar td {
+  border:solid 1px #ddd;
+  padding:10px;
+  vertical-align:top;
+  width:12.4%;
+}
+table.calendar td.totals {
+  border:none;
+}
+table.calendar td > div {
+  min-height:120px;
+}
+table.calendar .day-label {
+  font-size:12px;
+  text-align:left;
+}
+
+table.calendar .appt {
+   margin-bottom:5px; 
+}
+
+table.calendar .appt-name {
+  font-weight:bold; 
+}
+table.calendar .week-total {
+  font-size:32px;
+  font-weight:600;
+}
+table.calendar .week-total .label {
+  font-size:12px;
+  margin-right:10px;
+  position:relative;
+  top:-7px;
+}
+
+table.calendar .appt-time {
+  font-size:13px;
+  margin-left:8px;
+}
+.title-bar {
+  padding-right:12.5%;
+  margin-bottom:20px
+}
+.detail-section {
+  border-top:solid 1px #ddd;
+  margin-top:30px;
+}
+.text-bold {
+  font-weight:bold; 
+}
+.text-large {
+  font-size:18px; 
+}
