@@ -3,7 +3,17 @@
 // Documentation can be found at http://support.ghost.org/config/
 
 var path = require('path'),
-    config;
+    config,
+    url, 
+    devUrl;
+
+if(process.env.siteName) {
+    url = 'http://' + process.env.siteName + '.azurewebsites.net'
+} else {
+    url = "http://my-ghost-blog.com"   
+}
+
+devUrl = url;
 
 config = {
     // ### Production
