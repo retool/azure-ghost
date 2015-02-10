@@ -27,6 +27,9 @@
             "1",
             "2"
          ]
+      },
+      "repoUrl": {
+         "type": "string"
       }
    },
    "resources": [
