@@ -2,7 +2,7 @@
 // Orchestrates the loading of Ghost
 // When run from command line.
 
-require('retool').ghost();
+require('retool').Integrations.Ghost.start();
 
 var express,
     ghost,
